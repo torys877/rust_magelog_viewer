@@ -206,8 +206,3 @@ impl MageLog {
         return None;
     }
 }
-
-
-
-
-

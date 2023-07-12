@@ -1,5 +1,5 @@
 use notify::{RecommendedWatcher, RecursiveMode, Watcher, Config, EventKind, Event, INotifyWatcher};
-use std::fs::{File};
+use std::fs::File;
 use std::io::{Seek, SeekFrom, BufRead};
 use std::sync::mpsc::{self, Receiver};
 use std::time::Duration;
